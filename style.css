@@ -276,7 +276,7 @@ nav a[href="#recursos"].active:after{background:var(--orange)}
 .wb-tutorial-tags i:nth-child(even){transform:rotate(7deg);margin-left:30px}
 .wb-card-resources{background:var(--orange);color:#713100}
 .wb-card-resources p{width:58%}
-.wb-resource-art{position:absolute;z-index:0;right:0;top:0;bottom:0;width:300px;background:url('assets/resource-home-art.png') center/290px 274px no-repeat}
+.wb-resource-art{position:absolute;z-index:0;right:0;top:0;bottom:0;width:300px;background:url('resource-home-art.png') center/290px 274px no-repeat}
 .home-view footer{padding-top:68px;padding-bottom:68px}
 .home-view footer .brand strong{font-size:clamp(30px,4.2vw,46px)}
 .home-view footer .brand small{font-size:clamp(11px,1.2vw,14px)}
@@ -467,10 +467,10 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
   background-size:100% 100%;
   pointer-events:none;
 }
-.wb-route-card--concepts::after{background-image:url("assets/reference-card-concepts.png")}
-.wb-route-card--code::after{background-image:url("assets/reference-card-code.png")}
-.wb-route-card--guide::after{background-image:url("assets/reference-card-guide.png")}
-.wb-route-card--tutorials::after{background-image:url("assets/reference-card-tutorials.png")}
+.wb-route-card--concepts::after{background-image:url("reference-card-concepts.png")}
+.wb-route-card--code::after{background-image:url("reference-card-code.png")}
+.wb-route-card--guide::after{background-image:url("reference-card-guide.png")}
+.wb-route-card--tutorials::after{background-image:url("reference-card-tutorials.png")}
 
 /* Guía práctica: recorrido interactivo en diez pasos. */
 .guide-practical-content{max-width:1240px;padding-top:64px;padding-bottom:80px}
