@@ -656,3 +656,7 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 
 /* Mantiene los llamados a la acción con una escala uniforme en las cuatro tarjetas. */
 .wb-route-card-cta{width:44cqi;padding:1.2cqi 1.9cqi;font-size:2.15cqi}.wb-route-card-cta b{font-size:2.5cqi}
+
+/* Mantiene el nombre de Alexia Monte en una sola línea. */
+.interview-card h3.interview-name--alexia{font-size:clamp(30px,2.55vw,42px);letter-spacing:-.065em;white-space:nowrap}
+@media(max-width:680px){.interview-card h3.interview-name--alexia{font-size:clamp(29px,9vw,38px)}}
