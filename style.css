@@ -453,25 +453,6 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
   .wb-route-card{aspect-ratio:890/422!important}
 }
 
-/* Exact card compositions supplied in the visual reference. The semantic
-   card content remains underneath so every route keeps its accessible name
-   and link behavior while the visible artwork matches the reference 1:1. */
-.wb-route-card::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:20;
-  display:block;
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:100% 100%;
-  pointer-events:none;
-}
-.wb-route-card--concepts::after{background-image:url("reference-card-concepts.png")}
-.wb-route-card--code::after{background-image:url("reference-card-code.png")}
-.wb-route-card--guide::after{background-image:url("reference-card-guide.png")}
-.wb-route-card--tutorials::after{background-image:url("reference-card-tutorials.png")}
-
 /* Guía práctica: recorrido interactivo en diez pasos. */
 .guide-practical-content{max-width:1240px;padding-top:64px;padding-bottom:80px}
 .guide-practical-intro{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,90px);padding:0 0 64px;border-top:8px solid var(--lime)}
@@ -674,4 +655,4 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 }
 
 /* Mantiene los llamados a la acción con una escala uniforme en las cuatro tarjetas. */
-.wb-route-card-cta{width:38cqi;padding:1.15cqi 1.7cqi;font-size:2.1cqi}.wb-route-card-cta b{font-size:2.5cqi}
+.wb-route-card-cta{width:44cqi;padding:1.2cqi 1.9cqi;font-size:2.15cqi}.wb-route-card-cta b{font-size:2.5cqi}
