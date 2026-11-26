@@ -667,3 +667,5 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 
 /* Acerca el bloque de beneficio al enlace de YouTube, igualando el ritmo visual entre entrevistas. */
 .interview-card-benefit{margin-top:12px}
+
+.wb-route-card--code .wb-code-eye{right:3%;top:9%;width:44%!important}
