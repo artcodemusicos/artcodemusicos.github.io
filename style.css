@@ -671,19 +671,12 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 .wb-route-card--code .wb-code-eye{right:3%;top:9%;width:44%!important}
 
 
-/* Recursos de las tarjetas de inicio: se mantienen íntegros dentro de cada tarjeta. */
-.wb-route-card--concepts .wb-concept-shape--top{
-  right:3%!important;
-  top:2%!important;
-  width:27%!important;
-  max-width:none;
-  object-fit:contain;
-}
-.wb-route-card--code .wb-code-eye{
-  right:3%!important;
-  top:9%!important;
-  width:44%!important;
-  max-width:none;
-  object-fit:contain;
-  clip-path:none!important;
+/* Transparencia local: los textos de estas dos tarjetas no tapan los recursos gráficos. */
+.wb-route-card--concepts .wb-route-card-copy,
+.wb-route-card--concepts .wb-route-card-copy h3,
+.wb-route-card--concepts .wb-route-card-copy p,
+.wb-route-card--code .wb-route-card-copy,
+.wb-route-card--code .wb-route-card-copy h3,
+.wb-route-card--code .wb-route-card-copy p{
+  background:transparent!important;
 }
