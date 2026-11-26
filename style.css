@@ -426,13 +426,15 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 .wb-route-card-copy p{position:static;width:100%;margin:1.7cqi 0 0;font-size:2.35cqi;line-height:1.08;color:inherit}
 .wb-route-card-cta{position:absolute;z-index:4;left:6.6cqi;bottom:5.8cqi;width:34.5cqi;display:inline-flex;align-items:center;justify-content:space-between;border:1.5px solid currentColor;border-radius:999px;padding:1.05cqi 1.5cqi;font-size:2cqi;line-height:1;background:transparent;color:inherit}
 .wb-route-card-cta b{font-size:2.35cqi;line-height:.7}
-.wb-route-card--concepts{background:#ff1ec7;color:#fff4e8}
+.wb-route-card--concepts .wb-home-card-step,
+.wb-route-card--code .wb-home-card-step{font-weight:900}
+.wb-route-card--concepts{background:#ff1ec7 url("image.png") center / cover no-repeat;color:#fff4e8}
 .wb-route-card--concepts .wb-home-card-step{color:#fff}
 .wb-route-card--concepts .wb-route-card-copy{width:65%}
 .wb-route-card--concepts .wb-route-card-copy h3{color:#fff4e8}
 .wb-route-card--concepts .wb-route-card-copy h3 span{color:#8d0878}
 .wb-route-card--concepts .wb-route-card-copy p{margin-top:4.4cqi}
-.wb-route-card--code{background:#d6ff2f;color:#789900}
+.wb-route-card--code{background:#d6ff2f url("1f05c322-2f5c-4b5b-889a-142802ab8033.jpg") center / cover no-repeat;color:#789900}
 .wb-route-card--code .wb-home-card-step{color:#789900}
 .wb-route-card--code .wb-route-card-copy{width:64%}
 .wb-route-card--guide{background:#798e00;color:var(--lime)}
@@ -442,11 +444,7 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 .wb-route-card--tutorials{background:#50e5ff;color:#08798b}
 .wb-route-card--tutorials .wb-home-card-step{color:#08798b}
 .wb-route-card--tutorials .wb-route-card-copy{width:60%}
-.wb-concept-shape,.wb-code-eye,.wb-route-guide-art,.wb-route-tutorial-art{position:absolute!important;z-index:1;display:block;height:auto!important;object-fit:contain}
-.wb-concept-shape--top{right:0;top:0;width:29.5%!important}
-.wb-concept-shape--left{left:0;bottom:0;width:6.5%!important}
-.wb-concept-shape--bottom{left:6.5%;bottom:0;width:20.5%!important}
-.wb-code-eye{right:0;top:7%;width:44%!important}
+.wb-route-guide-art,.wb-route-tutorial-art{position:absolute!important;z-index:1;display:block;height:auto!important;object-fit:contain}
 .wb-route-guide-art{right:1.5%;top:12%;width:34%!important}
 .wb-route-tutorial-art{right:2.8%;top:50%;width:34%!important;transform:translateY(-50%)}
 @media(max-width:720px){
@@ -662,13 +660,8 @@ body:has(.interview-grid) .interview-grid{grid-template-columns:repeat(2,minmax(
 @media(max-width:680px){.interview-card h3.interview-name--alexia{font-size:clamp(29px,9vw,38px)}}
 
 
-/* Ajuste final de la tarjeta “Descubrí tu código artístico”: el ojo queda completamente dentro del recuadro. */
-.wb-route-card--code .wb-code-eye{right:4%;top:9%;width:39%!important;max-width:none;object-fit:contain}
-
 /* Acerca el bloque de beneficio al enlace de YouTube, igualando el ritmo visual entre entrevistas. */
 .interview-card-benefit{margin-top:12px}
-
-.wb-route-card--code .wb-code-eye{right:3%;top:9%;width:44%!important}
 
 
 /* Transparencia local: los textos de estas dos tarjetas no tapan los recursos gráficos. */

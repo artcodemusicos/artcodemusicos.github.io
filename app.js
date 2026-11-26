@@ -49,9 +49,6 @@ const home=()=>`<section class="home-banner" aria-label="ARTCODE: animación pri
           <p>Conocé los conceptos claves para crear tu identidad audiovisual en redes sociales.</p>
         </div>
         <span class="wb-route-card-cta">Explorar conceptos <b>→</b></span>
-        <img class="wb-concept-shape wb-concept-shape--top" src="concept-shapes-top.png" alt="" aria-hidden="true">
-        <img class="wb-concept-shape wb-concept-shape--left" src="concept-shapes-left.png" alt="" aria-hidden="true">
-        <img class="wb-concept-shape wb-concept-shape--bottom" src="concept-shapes-bottom.png" alt="" aria-hidden="true">
       </a>
       <a class="wb-home-card wb-route-card wb-route-card--code" href="#guia" aria-label="02 / Descubrí quién sos — Descubrí tu código artístico">
         <span class="wb-home-card-step" aria-hidden="true">02 / Descubrí quién sos</span>
@@ -60,7 +57,6 @@ const home=()=>`<section class="home-banner" aria-label="ARTCODE: animación pri
           <p>Explorá qué define tu proyecto y qué querés comunicar en una identidad propia y reconocible.</p>
         </div>
         <span class="wb-route-card-cta">Conocé más <b>→</b></span>
-        <img class="wb-code-eye" src="code-eye-full.png?v=1" alt="" aria-hidden="true">
       </a>
     </div>
     <div class="wb-home-cards wb-home-cards--after-guide">
