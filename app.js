@@ -60,7 +60,7 @@ const home=()=>`<section class="home-banner" aria-label="ARTCODE: animación pri
           <p>Explorá qué define tu proyecto y qué querés comunicar en una identidad propia y reconocible.</p>
         </div>
         <span class="wb-route-card-cta">Conocé más <b>→</b></span>
-        <img class="wb-code-eye" src="code-eye.png" alt="" aria-hidden="true">
+        <img class="wb-code-eye" src="code-eye.png?v=3" alt="" aria-hidden="true">
       </a>
     </div>
     <div class="wb-home-cards wb-home-cards--after-guide">
